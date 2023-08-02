@@ -12,6 +12,12 @@ For converting time, the user will be prompted to input a number of seconds (as 
 
 For calculating the sum of digits in an integer, the user will be prompted to input a number (as a non-negative int) and the program will call a method to calculate the sum of the digits in that number, and print the result. For example, if the user enters 321, the program will print the sum, 6, because the individual digits in the number add up to 6.  3 + 2 + 1 = 6.
 
+There are 2 methods that need to be implemented in the SimpleGame class:
+
+- convertTime(int seconds) - Method that converts a given number of seconds to time in
+the format hours:minutes:seconds.
+- digitsSum(int input) - Method that adds all the digits in a given non-negative integer.
+
 # CODE - SOLUTION
 you can find the script right here on this repository
 
